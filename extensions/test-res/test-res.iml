@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/SystemConfig/system/testPropertyPlaceholders.spring.xml</file>
+          <file>file://$MODULE_DIR$/SystemConfig/system/testPropertyPlaceholders-system-settings.spring.xml</file>
+          <file>file://$MODULE_DIR$/PluginManagerTest/system/good-plugin1/plugin.spring.xml</file>
+          <file>file://$MODULE_DIR$/MimeTypeFactoryTest/MimeTypeFactoryTest.spring.xml</file>
+          <file>file://$MODULE_DIR$/solution1-no-config/system/importExport.xml</file>
+          <file>file://$MODULE_DIR$/solution1-no-config/system/repository.spring.xml</file>
+          <file>file://$MODULE_DIR$/solution1-no-config/system/pentahoObjects.spring.xml</file>
+          <file>file://$MODULE_DIR$/solution4-content-gen/system/pentahoObjects.spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/PluginClassLoaderTest" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
