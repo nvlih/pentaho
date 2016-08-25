@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/ROOT/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/ROOT" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/pentaho/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/pentaho" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/sw-style/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/sw-style" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/pentaho-style/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/package-res/biserver/tomcat/webapps/pentaho-style" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/package-res/appserver/jboss/webapps/pentaho-portal-layout/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/package-res/appserver/jboss/webapps/pentaho-portal-layout" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="javaeeApplication" name="javaEEApplication">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/package-res/appserver/res/ear/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
+    <facet type="javaeeApplication" name="javaEEApplication">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="application.xml" url="file://$MODULE_DIR$/package-res/manual-deployment/pentaho-res/ear/application.xml" />
+        </descriptors>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/default-content/samples/public/bi-developers/datasources/HQL_Datasource_HSQLDB.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/default-content/samples/public/bi-developers/datasources/HQL_Datasource_MySQL.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/default-content/samples/public/bi-developers/datasources/HQL_Datasource_Oracle.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/default-content/samples/public/bi-developers/datasources/HQL_Datasource_PostgreSQL.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/h2.hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/hibernate-jboss-managed.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/hsql.hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/mysql5.hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/oracle10g.hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/postgresql.hibernate.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/hibernate/sqlserver.hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/xaction/plugin.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/adminPlugins.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/importExport.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/olap4j.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/systemListeners.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/repository.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/defaultUser.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/pentaho-spring-beans.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/pentahoObjects.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/sessionStartupActions.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/monitoring-eventbus-plugin/plugin.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/pentahoServices.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/GettingStartedDB-spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-logging.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-common-authorization.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security-jdbc.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security-ldap.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-pentaho-security-jdbc.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-pentaho-security-ldap.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security-memory.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-pentaho-security-memory.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security-superuser.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-pentaho-security-superuser.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-spring-security-jackrabbit.xml</file>
+          <file>file://$MODULE_DIR$/package-res/biserver/pentaho-solutions/system/applicationContext-pentaho-security-jackrabbit.xml</file>
+          <file>file://$MODULE_DIR$/package-res-merged-server/biserver/pentaho-solutions/system/repository.spring.xml</file>
+          <file>file://$MODULE_DIR$/package-res-merged-server/biserver/pentaho-solutions/system/pentahoServices.spring.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
